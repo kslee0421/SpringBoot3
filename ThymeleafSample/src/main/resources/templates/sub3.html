@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{common/common}">
+<head>
+  <meta charset="UTF-8">
+  <title>국민건강보험</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="국민건강보험" />
+  <meta property="og:title" content="main" />
+  <meta property="og:description" content="이경선의 국민건강보험 홈페이지 포트폴리오 입니다." />
+  <meta property="og:image" content="../images/logo.png" />
+  <meta property="og:url" content="https://www.nhis.or.kr/" />
+  <meta name="Description" content="국민건강보험 홈페이지 포트폴리오"/>
+  <meta name="Generator" content="Notepad++"/>
+  <meta name="Author" content="이경선"/>
+  <meta name="Keywords" content="이경선, Lee Kyoungsun, 포트폴리오, 이경선 포트폴리오, portfolio, Portfolip, Kyoungsun's portfolio, 경선, Kyoungsun, LEEKYOUNGSUN, KYOUNGSUN, KyoungsunLee, Kyoungsun Lee, 경선 이, 포폴, JAVA, Kotlin, 코틀린, 자바, 웹, Web, java, app, application, eclipse, olacle, notepad, html, css, html5, css3, 국민건강보험"/>
+  <meta name="Description" content="이경선의 포트폴리오 페이지 입니다"/>
+  <link rel="icon" href="../images/favicon.ico" />
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/sub3.css">
+
+  <script src="/js/jquery-1.9.1.min.js"></script>
+  <script src="/js/guideText.js"></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/sub3.js"></script>
+
+</head>
+<body>
+<!-- #####SECTION##### -->
+<section layout:fragment="content">
+  <div id="section">
+    <!-- #####subLeft##### -->
+    <div id="subLeft" class="fl">
+      <div id="leftSideTitle"><h2>뉴스/소식</h2>
+      </div><!--id="leftSideTitle" -->
+      <div id="sideMenuList" >
+        <ul class="first accordion">
+          <li><a href="#" class="head">공지사항</a>
+            <ul class="content">
+              <li><a href="#">- 공지</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="head" tabindex="5">포토뉴스</a>
+            <ul class="content">
+              <li><a href="#">- 포토</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="head" tabindex="5">보도자료</a>
+            <ul class="content">
+              <li><a href="#">- 보도자료</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="head" tabindex="5">담배소송</a>
+            <ul class="content">
+              <li><a href="#">- 담배소송</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="head" tabindex="5">웹진</a>
+            <ul class="content">
+              <li><a href="#">- 전체</a></li>
+              <li><a href="#">- 2023년</a></li>
+              <li><a href="#">- 2022년</a></li>
+              <li><a href="#">- 2021년</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="head" tabindex="5">입찰공고</a>
+            <ul class="content">
+              <li><a href="#">- 입찰공고</a></li>
+              <li><a href="#">- 거래희망업체 등록신청</a></li>
+            </ul>
+          </li>
+          <li class="last"><a href="#" class="head active">채용</a>
+            <ul class="content">
+              <li><a href="#">- 채용공고</a></li>
+              <li><a href="#">- 입사지원</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- id="sideMenuList" -->
+    </div><!-- id="subLeft -->
+    <!-- #####subRight##### -->
+    <div id="subRight" class="fr" >
+      <div id="location">
+        <div class="location">
+          <p class="fr"><img src="images/ico-location-home.png" alt="아이콘 이미지"/>&nbsp;&nbsp;>&nbsp;뉴스 /소식 &nbsp;>&nbsp;채용
+        </div>
+      </div><!-- class="loction"-->
+      <div class="subContentHead">
+        <p class="contentTitle">채용</p>
+        <div class="bottomSearch cf">
+          <ul>
+            <li>
+              <select name="boardSearchOption" id="boardSearchOption">
+                <option value="전체">전체
+                <option value="제목">제목
+                <option value="내용">내용
+                <option value="제목+내용">제목+내용
+              </select>
+            </li>
+            <li><input type="text" name="boardSearchText" id="boardSearchText" class="guideText" value="검색어를 입력해 주세요"/></li>
+            <li><input type="button" name="boardSearchbtn" id="boardSearchbtn" value="검색"/></li>
+            <li><input type="button" name="writeBtn" id="writeBtn" value="글쓰기"/></li>
+          </ul>
+        </div> <!-- bottomSearch end -->
+      </div><!-- id="subContentHead" -->
+      <div id="board">
+        <div class="boardHeader">
+          <div class="box01 fl">번호</div>
+          <div class="box02 fl">제목</div>
+          <div class="box03 fl">담당부서</div>
+          <div class="box04 fl">등록일</div>
+          <div class="box05 fl">첨부</div>
+          <div class="box06 fl">조회수</div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">291</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">290</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">289</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">288</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">287</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">286</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">285</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">284</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">283</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div class="boardContent">
+          <div class="content box01 fl">282</div>
+          <div class="content box02 fl"></div>
+          <div class="content box03 fl"></div>
+          <div class="content box04 fl"></div>
+          <div class="content box05 fl"></div>
+          <div class="content box06 fl"></div>
+        </div>
+        <div id="page">
+          <div class="boardPage cf">
+            <ul>
+              <li class="pageImg1"><a href="#"><img src="/images/paging-first.png" alt="double left arrow" /></a></li>
+              <li class="pageImg2"><a href="#"><img src="/images/paging-prev.png" alt="left arrow" /></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a class="effect" href="#">2</a></li>
+              <li><a  class="effect" href="#">3</a></li>
+              <li><a class="effect"  href="#">4</a></li>
+              <li><a class="effect"  href="#">5</a></li>
+              <li><a class="effect"  href="#">6</a></li>
+              <li><a class="effect"  href="#">7</a></li>
+              <li><a class="effect"  href="#">8</a></li>
+              <li><a class="effect"  href="#">9</a></li>
+              <li><a class="effect"  href="#">10</a></li>
+              <li class="pageImg3"><a href="#"><img src="/images/paging-next.png" alt="right arrow" /></a></li>
+              <li class="pageImg4"><a href="#"><img src="/images/paging-last.png" alt="double right arrow" /></a></li>
+            </ul>
+          </div> <!-- boardPage end -->
+        </div><!-- id="page" -->
+      </div> <!-- board end -->
+    </div><!-- id="subRight" -->
+  </div><!-- id="section" -->
+</section>
